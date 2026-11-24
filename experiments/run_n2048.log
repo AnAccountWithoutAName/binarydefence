@@ -1,0 +1,149 @@
+wandb: [wandb.login()] Loaded credentials for https://api.forge.coreweave.com from C:\Users\siddh\_netrc.
+wandb: Currently logged in as: kosu (ectheory-birmingham) to https://api.forge.coreweave.com. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in C:\Projects\BinaryDefence\wandb\run-20261119_123033-qd003j43
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run pdcoea-n2048-geomchi0.3-12k
+wandb:  View project at https://forge.coreweave.com/wandb/ectheory-birmingham/binary-defence
+wandb:  View run at https://forge.coreweave.com/wandb/ectheory-birmingham/binary-defence/runs/qd003j43
+BinaryDefence n=2048, 1023 ones; pop_size 64, 16 rollouts per pair
+gen    100 | solve 0.519 | eval lvls 0.519 known 147/256 forgot 0 | acc mean 0.508 best 0.510 perfect 0.00 | regret 0.495 (sel 0.500) win1 0.24 | levels distinct 37 | entropy 0.665 | 11941 sps
+gen    200 | solve 0.540 | eval lvls 0.535 known 150/256 forgot 14 | acc mean 0.532 best 0.535 perfect 0.00 | regret 0.469 (sel 0.475) win1 0.24 | levels distinct 41 | entropy 0.535 | 13157 sps
+gen    300 | solve 0.563 | eval lvls 0.554 known 139/256 forgot 35 | acc mean 0.556 best 0.558 perfect 0.00 | regret 0.443 (sel 0.448) win1 0.22 | levels distinct 38 | entropy 0.523 | 12422 sps
+gen    400 | solve 0.583 | eval lvls 0.592 known 164/256 forgot 76 | acc mean 0.578 best 0.581 perfect 0.00 | regret 0.432 (sel 0.444) win1 0.23 | levels distinct 34 | entropy 0.484 | 12770 sps
+gen    500 | solve 0.606 | eval lvls 0.613 known 169/256 forgot 89 | acc mean 0.599 best 0.603 perfect 0.00 | regret 0.427 (sel 0.442) win1 0.24 | levels distinct 39 | entropy 0.445 | 12008 sps
+gen    600 | solve 0.622 | eval lvls 0.630 known 174/256 forgot 99 | acc mean 0.615 best 0.624 perfect 0.00 | regret 0.418 (sel 0.434) win1 0.25 | levels distinct 44 | entropy 0.445 | 12900 sps
+gen    700 | solve 0.645 | eval lvls 0.650 known 171/256 forgot 131 | acc mean 0.639 best 0.647 perfect 0.00 | regret 0.400 (sel 0.413) win1 0.27 | levels distinct 45 | entropy 0.369 | 12260 sps
+gen    800 | solve 0.669 | eval lvls 0.673 known 178/256 forgot 150 | acc mean 0.662 best 0.667 perfect 0.00 | regret 0.388 (sel 0.402) win1 0.27 | levels distinct 41 | entropy 0.401 | 12841 sps
+gen    900 | solve 0.688 | eval lvls 0.693 known 181/256 forgot 168 | acc mean 0.680 best 0.686 perfect 0.00 | regret 0.400 (sel 0.420) win1 0.29 | levels distinct 44 | entropy 0.340 | 12286 sps
+gen   1000 | solve 0.705 | eval lvls 0.718 known 199/256 forgot 180 | acc mean 0.698 best 0.705 perfect 0.00 | regret 0.391 (sel 0.414) win1 0.31 | levels distinct 41 | entropy 0.315 | 12255 sps
+gen   1100 | solve 0.701 | eval lvls 0.705 known 180/256 forgot 241 | acc mean 0.698 best 0.713 perfect 0.00 | regret 0.582 (sel 0.668) win1 0.53 | levels distinct 36 | entropy 0.165 | 11923 sps
+gen   1200 | solve 0.715 | eval lvls 0.722 known 192/256 forgot 287 | acc mean 0.703 best 0.720 perfect 0.00 | regret 0.609 (sel 0.712) win1 0.56 | levels distinct 40 | entropy 0.126 | 12175 sps
+gen   1300 | solve 0.687 | eval lvls 0.688 known 183/256 forgot 343 | acc mean 0.679 best 0.731 perfect 0.00 | regret 0.505 (sel 0.574) win1 0.42 | levels distinct 30 | entropy 0.209 | 12081 sps
+gen   1400 | solve 0.721 | eval lvls 0.725 known 184/256 forgot 343 | acc mean 0.713 best 0.739 perfect 0.00 | regret 0.469 (sel 0.513) win1 0.43 | levels distinct 38 | entropy 0.148 | 12105 sps
+gen   1500 | solve 0.746 | eval lvls 0.757 known 206/256 forgot 378 | acc mean 0.734 best 0.751 perfect 0.00 | regret 0.370 (sel 0.399) win1 0.35 | levels distinct 38 | entropy 0.275 | 12556 sps
+gen   1600 | solve 0.745 | eval lvls 0.742 known 189/256 forgot 410 | acc mean 0.729 best 0.754 perfect 0.00 | regret 0.430 (sel 0.485) win1 0.40 | levels distinct 35 | entropy 0.234 | 12105 sps
+gen   1700 | solve 0.774 | eval lvls 0.785 known 204/256 forgot 412 | acc mean 0.759 best 0.771 perfect 0.00 | regret 0.378 (sel 0.416) win1 0.34 | levels distinct 37 | entropy 0.260 | 12735 sps
+gen   1800 | solve 0.791 | eval lvls 0.800 known 207/256 forgot 441 | acc mean 0.776 best 0.786 perfect 0.00 | regret 0.381 (sel 0.450) win1 0.42 | levels distinct 38 | entropy 0.255 | 12307 sps
+gen   1900 | solve 0.777 | eval lvls 0.780 known 199/256 forgot 468 | acc mean 0.771 best 0.800 perfect 0.00 | regret 0.385 (sel 0.437) win1 0.44 | levels distinct 27 | entropy 0.199 | 12281 sps
+gen   2000 | solve 0.806 | eval lvls 0.802 known 209/256 forgot 483 | acc mean 0.795 best 0.805 perfect 0.00 | regret 0.385 (sel 0.435) win1 0.46 | levels distinct 37 | entropy 0.194 | 11181 sps
+gen   2100 | solve 0.794 | eval lvls 0.791 known 211/256 forgot 493 | acc mean 0.789 best 0.813 perfect 0.00 | regret 0.332 (sel 0.360) win1 0.44 | levels distinct 40 | entropy 0.189 | 12467 sps
+gen   2200 | solve 0.821 | eval lvls 0.824 known 214/256 forgot 502 | acc mean 0.813 best 0.825 perfect 0.00 | regret 0.369 (sel 0.424) win1 0.46 | levels distinct 33 | entropy 0.176 | 12660 sps
+gen   2300 | solve 0.791 | eval lvls 0.789 known 200/256 forgot 544 | acc mean 0.787 best 0.819 perfect 0.00 | regret 0.548 (sel 0.660) win1 0.59 | levels distinct 24 | entropy 0.077 | 13329 sps
+gen   2400 | solve 0.797 | eval lvls 0.799 known 205/256 forgot 589 | acc mean 0.792 best 0.831 perfect 0.00 | regret 0.405 (sel 0.470) win1 0.47 | levels distinct 35 | entropy 0.138 | 12451 sps
+gen   2500 | solve 0.795 | eval lvls 0.787 known 201/256 forgot 638 | acc mean 0.791 best 0.834 perfect 0.00 | regret 0.391 (sel 0.437) win1 0.49 | levels distinct 39 | entropy 0.106 | 12667 sps
+gen   2600 | solve 0.813 | eval lvls 0.805 known 210/256 forgot 676 | acc mean 0.810 best 0.837 perfect 0.00 | regret 0.476 (sel 0.556) win1 0.52 | levels distinct 32 | entropy 0.104 | 14182 sps
+gen   2700 | solve 0.824 | eval lvls 0.821 known 220/256 forgot 696 | acc mean 0.812 best 0.840 perfect 0.00 | regret 0.542 (sel 0.652) win1 0.57 | levels distinct 36 | entropy 0.100 | 14126 sps
+gen   2800 | solve 0.834 | eval lvls 0.826 known 222/256 forgot 698 | acc mean 0.822 best 0.844 perfect 0.00 | regret 0.368 (sel 0.431) win1 0.44 | levels distinct 46 | entropy 0.177 | 14241 sps
+gen   2900 | solve 0.778 | eval lvls 0.769 known 203/256 forgot 740 | acc mean 0.763 best 0.816 perfect 0.00 | regret 0.385 (sel 0.441) win1 0.47 | levels distinct 35 | entropy 0.135 | 14463 sps
+gen   3000 | solve 0.849 | eval lvls 0.841 known 227/256 forgot 758 | acc mean 0.842 best 0.863 perfect 0.00 | regret 0.339 (sel 0.381) win1 0.47 | levels distinct 38 | entropy 0.173 | 13957 sps
+gen   3100 | solve 0.848 | eval lvls 0.844 known 228/256 forgot 764 | acc mean 0.837 best 0.866 perfect 0.00 | regret 0.379 (sel 0.447) win1 0.50 | levels distinct 41 | entropy 0.146 | 14339 sps
+gen   3200 | solve 0.862 | eval lvls 0.862 known 232/256 forgot 776 | acc mean 0.848 best 0.863 perfect 0.00 | regret 0.343 (sel 0.394) win1 0.41 | levels distinct 36 | entropy 0.230 | 14130 sps
+gen   3300 | solve 0.856 | eval lvls 0.852 known 229/256 forgot 782 | acc mean 0.849 best 0.873 perfect 0.00 | regret 0.315 (sel 0.353) win1 0.45 | levels distinct 35 | entropy 0.157 | 13904 sps
+gen   3400 | solve 0.878 | eval lvls 0.882 known 235/256 forgot 793 | acc mean 0.865 best 0.880 perfect 0.00 | regret 0.288 (sel 0.329) win1 0.46 | levels distinct 35 | entropy 0.189 | 12441 sps
+gen   3500 | solve 0.879 | eval lvls 0.862 known 221/256 forgot 821 | acc mean 0.874 best 0.889 perfect 0.00 | regret 0.287 (sel 0.332) win1 0.48 | levels distinct 37 | entropy 0.200 | 11997 sps
+gen   3600 | solve 0.882 | eval lvls 0.868 known 221/256 forgot 822 | acc mean 0.875 best 0.895 perfect 0.00 | regret 0.266 (sel 0.305) win1 0.51 | levels distinct 35 | entropy 0.161 | 12885 sps
+gen   3700 | solve 0.868 | eval lvls 0.865 known 225/256 forgot 848 | acc mean 0.864 best 0.897 perfect 0.00 | regret 0.247 (sel 0.274) win1 0.52 | levels distinct 36 | entropy 0.153 | 10921 sps
+gen   3800 | solve 0.915 | eval lvls 0.910 known 237/256 forgot 853 | acc mean 0.905 best 0.914 perfect 0.00 | regret 0.295 (sel 0.363) win1 0.56 | levels distinct 30 | entropy 0.140 | 12323 sps
+gen   3900 | solve 0.908 | eval lvls 0.905 known 236/256 forgot 854 | acc mean 0.902 best 0.915 perfect 0.00 | regret 0.297 (sel 0.343) win1 0.57 | levels distinct 32 | entropy 0.108 | 11573 sps
+gen   4000 | solve 0.882 | eval lvls 0.880 known 229/256 forgot 870 | acc mean 0.879 best 0.916 perfect 0.00 | regret 0.334 (sel 0.399) win1 0.59 | levels distinct 43 | entropy 0.093 | 12181 sps
+gen   4100 | solve 0.898 | eval lvls 0.890 known 235/256 forgot 884 | acc mean 0.893 best 0.920 perfect 0.00 | regret 0.330 (sel 0.382) win1 0.55 | levels distinct 40 | entropy 0.083 | 12795 sps
+gen   4200 | solve 0.904 | eval lvls 0.910 known 233/256 forgot 897 | acc mean 0.901 best 0.917 perfect 0.00 | regret 0.476 (sel 0.602) win1 0.67 | levels distinct 20 | entropy 0.066 | 14303 sps
+gen   4300 | solve 0.906 | eval lvls 0.904 known 236/256 forgot 899 | acc mean 0.902 best 0.919 perfect 0.00 | regret 0.499 (sel 0.619) win1 0.66 | levels distinct 29 | entropy 0.061 | 14532 sps
+gen   4400 | solve 0.916 | eval lvls 0.896 known 229/256 forgot 916 | acc mean 0.910 best 0.924 perfect 0.00 | regret 0.209 (sel 0.239) win1 0.56 | levels distinct 27 | entropy 0.150 | 13965 sps
+gen   4500 | solve 0.880 | eval lvls 0.876 known 225/256 forgot 943 | acc mean 0.875 best 0.925 perfect 0.00 | regret 0.323 (sel 0.399) win1 0.60 | levels distinct 40 | entropy 0.095 | 13395 sps
+gen   4600 | solve 0.899 | eval lvls 0.885 known 230/256 forgot 965 | acc mean 0.896 best 0.925 perfect 0.00 | regret 0.217 (sel 0.253) win1 0.62 | levels distinct 41 | entropy 0.108 | 13058 sps
+gen   4700 | solve 0.920 | eval lvls 0.919 known 237/256 forgot 973 | acc mean 0.915 best 0.925 perfect 0.00 | regret 0.337 (sel 0.410) win1 0.62 | levels distinct 23 | entropy 0.096 | 12187 sps
+gen   4800 | solve 0.914 | eval lvls 0.906 known 234/256 forgot 984 | acc mean 0.908 best 0.923 perfect 0.00 | regret 0.481 (sel 0.584) win1 0.64 | levels distinct 37 | entropy 0.055 | 13102 sps
+gen   4900 | solve 0.927 | eval lvls 0.926 known 237/256 forgot 993 | acc mean 0.921 best 0.927 perfect 0.00 | regret 0.461 (sel 0.573) win1 0.66 | levels distinct 18 | entropy 0.065 | 14212 sps
+gen   5000 | solve 0.919 | eval lvls 0.921 known 236/256 forgot 994 | acc mean 0.914 best 0.931 perfect 0.00 | regret 0.329 (sel 0.384) win1 0.62 | levels distinct 30 | entropy 0.086 | 14395 sps
+gen   5100 | solve 0.926 | eval lvls 0.926 known 242/256 forgot 994 | acc mean 0.919 best 0.935 perfect 0.00 | regret 0.242 (sel 0.280) win1 0.56 | levels distinct 38 | entropy 0.131 | 14260 sps
+gen   5200 | solve 0.923 | eval lvls 0.922 known 238/256 forgot 1004 | acc mean 0.918 best 0.941 perfect 0.00 | regret 0.210 (sel 0.246) win1 0.60 | levels distinct 30 | entropy 0.119 | 14240 sps
+gen   5300 | solve 0.943 | eval lvls 0.938 known 242/256 forgot 1011 | acc mean 0.938 best 0.945 perfect 0.00 | regret 0.325 (sel 0.397) win1 0.58 | levels distinct 43 | entropy 0.094 | 13951 sps
+gen   5400 | solve 0.933 | eval lvls 0.928 known 239/256 forgot 1023 | acc mean 0.930 best 0.944 perfect 0.00 | regret 0.354 (sel 0.456) win1 0.66 | levels distinct 22 | entropy 0.075 | 13789 sps
+gen   5500 | solve 0.932 | eval lvls 0.927 known 241/256 forgot 1031 | acc mean 0.928 best 0.945 perfect 0.00 | regret 0.395 (sel 0.490) win1 0.64 | levels distinct 35 | entropy 0.071 | 13991 sps
+gen   5600 | solve 0.939 | eval lvls 0.933 known 245/256 forgot 1031 | acc mean 0.935 best 0.947 perfect 0.00 | regret 0.214 (sel 0.261) win1 0.67 | levels distinct 30 | entropy 0.090 | 13015 sps
+gen   5700 | solve 0.907 | eval lvls 0.910 known 233/256 forgot 1050 | acc mean 0.901 best 0.939 perfect 0.00 | regret 0.405 (sel 0.503) win1 0.64 | levels distinct 32 | entropy 0.063 | 12812 sps
+gen   5800 | solve 0.953 | eval lvls 0.950 known 245/256 forgot 1052 | acc mean 0.947 best 0.953 perfect 0.00 | regret 0.237 (sel 0.287) win1 0.63 | levels distinct 32 | entropy 0.081 | 12101 sps
+gen   5900 | solve 0.924 | eval lvls 0.935 known 239/256 forgot 1059 | acc mean 0.921 best 0.945 perfect 0.00 | regret 0.481 (sel 0.617) win1 0.71 | levels distinct 19 | entropy 0.047 | 12385 sps
+gen   6000 | solve 0.950 | eval lvls 0.953 known 244/256 forgot 1059 | acc mean 0.947 best 0.956 perfect 0.00 | regret 0.604 (sel 0.755) win1 0.77 | levels distinct 41 | entropy 0.022 | 8749 sps
+gen   6100 | solve 0.931 | eval lvls 0.919 known 235/256 forgot 1077 | acc mean 0.928 best 0.955 perfect 0.00 | regret 0.210 (sel 0.246) win1 0.73 | levels distinct 42 | entropy 0.066 | 8097 sps
+gen   6200 | solve 0.942 | eval lvls 0.924 known 239/256 forgot 1081 | acc mean 0.940 best 0.955 perfect 0.00 | regret 0.223 (sel 0.272) win1 0.70 | levels distinct 36 | entropy 0.072 | 10636 sps
+gen   6300 | solve 0.922 | eval lvls 0.920 known 234/256 forgot 1098 | acc mean 0.919 best 0.960 perfect 0.00 | regret 0.397 (sel 0.514) win1 0.67 | levels distinct 24 | entropy 0.061 | 12903 sps
+gen   6400 | solve 0.957 | eval lvls 0.954 known 245/256 forgot 1100 | acc mean 0.953 best 0.959 perfect 0.00 | regret 0.525 (sel 0.656) win1 0.74 | levels distinct 42 | entropy 0.032 | 13068 sps
+gen   6500 | solve 0.933 | eval lvls 0.920 known 234/256 forgot 1119 | acc mean 0.930 best 0.956 perfect 0.00 | regret 0.297 (sel 0.382) win1 0.70 | levels distinct 36 | entropy 0.054 | 13212 sps
+gen   6600 | solve 0.956 | eval lvls 0.957 known 248/256 forgot 1125 | acc mean 0.952 best 0.962 perfect 0.00 | regret 0.146 (sel 0.158) win1 0.69 | levels distinct 37 | entropy 0.077 | 13236 sps
+gen   6700 | solve 0.963 | eval lvls 0.973 known 250/256 forgot 1125 | acc mean 0.961 best 0.967 perfect 0.00 | regret 0.268 (sel 0.344) win1 0.70 | levels distinct 17 | entropy 0.065 | 13292 sps
+gen   6800 | solve 0.963 | eval lvls 0.972 known 249/256 forgot 1126 | acc mean 0.961 best 0.970 perfect 0.00 | regret 0.257 (sel 0.321) win1 0.72 | levels distinct 45 | entropy 0.058 | 13070 sps
+gen   6900 | solve 0.950 | eval lvls 0.936 known 239/256 forgot 1142 | acc mean 0.948 best 0.966 perfect 0.00 | regret 0.350 (sel 0.446) win1 0.72 | levels distinct 36 | entropy 0.047 | 13251 sps
+gen   7000 | solve 0.968 | eval lvls 0.965 known 250/256 forgot 1147 | acc mean 0.964 best 0.974 perfect 0.00 | regret 0.187 (sel 0.225) win1 0.71 | levels distinct 44 | entropy 0.074 | 13081 sps
+gen   7100 | solve 0.967 | eval lvls 0.967 known 250/256 forgot 1152 | acc mean 0.964 best 0.976 perfect 0.00 | regret 0.191 (sel 0.232) win1 0.73 | levels distinct 40 | entropy 0.056 | 13095 sps
+gen   7200 | solve 0.966 | eval lvls 0.964 known 248/256 forgot 1159 | acc mean 0.964 best 0.975 perfect 0.00 | regret 0.122 (sel 0.145) win1 0.77 | levels distinct 38 | entropy 0.054 | 13122 sps
+gen   7300 | solve 0.949 | eval lvls 0.949 known 246/256 forgot 1162 | acc mean 0.947 best 0.970 perfect 0.00 | regret 0.403 (sel 0.505) win1 0.75 | levels distinct 21 | entropy 0.038 | 13216 sps
+gen   7400 | solve 0.971 | eval lvls 0.964 known 248/256 forgot 1164 | acc mean 0.968 best 0.975 perfect 0.00 | regret 0.357 (sel 0.459) win1 0.76 | levels distinct 37 | entropy 0.034 | 13210 sps
+gen   7500 | solve 0.973 | eval lvls 0.973 known 250/256 forgot 1164 | acc mean 0.970 best 0.975 perfect 0.00 | regret 0.159 (sel 0.189) win1 0.74 | levels distinct 37 | entropy 0.069 | 13150 sps
+gen   7600 | solve 0.974 | eval lvls 0.974 known 251/256 forgot 1168 | acc mean 0.971 best 0.976 perfect 0.00 | regret 0.220 (sel 0.272) win1 0.71 | levels distinct 36 | entropy 0.071 | 12917 sps
+gen   7700 | solve 0.977 | eval lvls 0.977 known 251/256 forgot 1171 | acc mean 0.974 best 0.978 perfect 0.00 | regret 0.059 (sel 0.066) win1 0.81 | levels distinct 34 | entropy 0.061 | 13236 sps
+gen   7800 | solve 0.963 | eval lvls 0.958 known 249/256 forgot 1173 | acc mean 0.959 best 0.980 perfect 0.00 | regret 0.146 (sel 0.173) win1 0.74 | levels distinct 36 | entropy 0.064 | 13328 sps
+gen   7900 | solve 0.983 | eval lvls 0.977 known 251/256 forgot 1174 | acc mean 0.981 best 0.982 perfect 0.00 | regret 0.106 (sel 0.115) win1 0.75 | levels distinct 38 | entropy 0.066 | 13253 sps
+gen   8000 | solve 0.984 | eval lvls 0.975 known 250/256 forgot 1176 | acc mean 0.982 best 0.983 perfect 0.00 | regret 0.077 (sel 0.085) win1 0.80 | levels distinct 43 | entropy 0.059 | 13213 sps
+gen   8100 | solve 0.977 | eval lvls 0.967 known 249/256 forgot 1179 | acc mean 0.974 best 0.984 perfect 0.00 | regret 0.071 (sel 0.074) win1 0.82 | levels distinct 34 | entropy 0.053 | 13233 sps
+gen   8200 | solve 0.981 | eval lvls 0.973 known 251/256 forgot 1180 | acc mean 0.979 best 0.985 perfect 0.00 | regret 0.096 (sel 0.115) win1 0.83 | levels distinct 35 | entropy 0.042 | 13224 sps
+gen   8300 | solve 0.981 | eval lvls 0.972 known 249/256 forgot 1182 | acc mean 0.979 best 0.982 perfect 0.00 | regret 0.104 (sel 0.120) win1 0.81 | levels distinct 38 | entropy 0.039 | 13311 sps
+gen   8400 | solve 0.981 | eval lvls 0.981 known 252/256 forgot 1182 | acc mean 0.979 best 0.986 perfect 0.00 | regret 0.058 (sel 0.070) win1 0.86 | levels distinct 37 | entropy 0.040 | 13176 sps
+gen   8500 | solve 0.985 | eval lvls 0.982 known 251/256 forgot 1184 | acc mean 0.983 best 0.986 perfect 0.00 | regret 0.073 (sel 0.075) win1 0.83 | levels distinct 27 | entropy 0.041 | 13323 sps
+gen   8600 | solve 0.978 | eval lvls 0.979 known 252/256 forgot 1186 | acc mean 0.976 best 0.986 perfect 0.00 | regret 0.066 (sel 0.079) win1 0.85 | levels distinct 42 | entropy 0.039 | 13264 sps
+gen   8700 | solve 0.985 | eval lvls 0.975 known 249/256 forgot 1190 | acc mean 0.985 best 0.986 perfect 0.00 | regret 0.066 (sel 0.077) win1 0.85 | levels distinct 38 | entropy 0.036 | 13307 sps
+gen   8800 | solve 0.988 | eval lvls 0.998 known 256/256 forgot 1190 | acc mean 0.987 best 0.988 perfect 0.00 | regret 0.078 (sel 0.092) win1 0.82 | levels distinct 39 | entropy 0.051 | 13183 sps
+gen   8900 | solve 0.990 | eval lvls 0.997 known 256/256 forgot 1190 | acc mean 0.989 best 0.990 perfect 0.00 | regret 0.044 (sel 0.051) win1 0.88 | levels distinct 34 | entropy 0.035 | 13165 sps
+gen   9000 | solve 0.989 | eval lvls 0.996 known 256/256 forgot 1190 | acc mean 0.987 best 0.991 perfect 0.00 | regret 0.069 (sel 0.082) win1 0.85 | levels distinct 43 | entropy 0.041 | 13236 sps
+gen   9100 | solve 0.988 | eval lvls 0.995 known 255/256 forgot 1191 | acc mean 0.987 best 0.989 perfect 0.00 | regret 0.055 (sel 0.066) win1 0.87 | levels distinct 39 | entropy 0.035 | 13170 sps
+gen   9200 | solve 0.990 | eval lvls 0.994 known 255/256 forgot 1191 | acc mean 0.989 best 0.990 perfect 0.00 | regret 0.077 (sel 0.095) win1 0.85 | levels distinct 38 | entropy 0.038 | 13317 sps
+gen   9300 | solve 0.991 | eval lvls 0.992 known 254/256 forgot 1192 | acc mean 0.990 best 0.991 perfect 0.00 | regret 0.029 (sel 0.035) win1 0.93 | levels distinct 33 | entropy 0.019 | 13309 sps
+gen   9400 | solve 0.989 | eval lvls 0.988 known 253/256 forgot 1193 | acc mean 0.987 best 0.992 perfect 0.00 | regret 0.027 (sel 0.027) win1 0.92 | levels distinct 43 | entropy 0.022 | 13200 sps
+gen   9500 | solve 0.992 | eval lvls 0.996 known 255/256 forgot 1193 | acc mean 0.991 best 0.992 perfect 0.00 | regret 0.061 (sel 0.081) win1 0.89 | levels distinct 45 | entropy 0.029 | 13210 sps
+gen   9600 | solve 0.993 | eval lvls 0.996 known 255/256 forgot 1193 | acc mean 0.992 best 0.993 perfect 0.00 | regret 0.027 (sel 0.030) win1 0.92 | levels distinct 40 | entropy 0.025 | 13145 sps
+gen   9700 | solve 0.992 | eval lvls 0.991 known 254/256 forgot 1194 | acc mean 0.991 best 0.993 perfect 0.00 | regret 0.023 (sel 0.022) win1 0.92 | levels distinct 35 | entropy 0.025 | 13172 sps
+gen   9800 | solve 0.992 | eval lvls 0.988 known 253/256 forgot 1195 | acc mean 0.991 best 0.992 perfect 0.00 | regret 0.025 (sel 0.029) win1 0.92 | levels distinct 41 | entropy 0.024 | 13235 sps
+gen   9900 | solve 0.986 | eval lvls 0.987 known 253/256 forgot 1197 | acc mean 0.984 best 0.991 perfect 0.00 | regret 0.047 (sel 0.057) win1 0.91 | levels distinct 36 | entropy 0.021 | 13290 sps
+gen  10000 | solve 0.995 | eval lvls 0.994 known 254/256 forgot 1198 | acc mean 0.993 best 0.994 perfect 0.00 | regret 0.041 (sel 0.046) win1 0.87 | levels distinct 37 | entropy 0.039 | 13226 sps
+gen  10100 | solve 0.994 | eval lvls 0.991 known 254/256 forgot 1198 | acc mean 0.993 best 0.994 perfect 0.00 | regret 0.007 (sel 0.005) win1 0.96 | levels distinct 37 | entropy 0.011 | 13040 sps
+gen  10200 | solve 0.989 | eval lvls 0.987 known 253/256 forgot 1200 | acc mean 0.987 best 0.992 perfect 0.00 | regret 0.014 (sel 0.014) win1 0.93 | levels distinct 42 | entropy 0.018 | 13121 sps
+gen  10300 | solve 0.988 | eval lvls 0.986 known 253/256 forgot 1200 | acc mean 0.987 best 0.993 perfect 0.00 | regret 0.028 (sel 0.028) win1 0.90 | levels distinct 41 | entropy 0.028 | 13040 sps
+gen  10400 | solve 0.993 | eval lvls 0.994 known 255/256 forgot 1200 | acc mean 0.992 best 0.994 perfect 0.00 | regret 0.025 (sel 0.029) win1 0.91 | levels distinct 46 | entropy 0.030 | 13242 sps
+gen  10500 | solve 0.994 | eval lvls 0.992 known 254/256 forgot 1201 | acc mean 0.993 best 0.994 perfect 0.00 | regret 0.015 (sel 0.012) win1 0.93 | levels distinct 36 | entropy 0.021 | 13249 sps
+gen  10600 | solve 0.994 | eval lvls 0.993 known 254/256 forgot 1202 | acc mean 0.993 best 0.994 perfect 0.00 | regret 0.014 (sel 0.014) win1 0.93 | levels distinct 43 | entropy 0.024 | 12826 sps
+gen  10700 | solve 0.993 | eval lvls 0.992 known 254/256 forgot 1202 | acc mean 0.992 best 0.993 perfect 0.00 | regret 0.017 (sel 0.018) win1 0.93 | levels distinct 38 | entropy 0.023 | 13275 sps
+gen  10800 | solve 0.994 | eval lvls 0.997 known 255/256 forgot 1202 | acc mean 0.994 best 0.995 perfect 0.00 | regret 0.039 (sel 0.046) win1 0.87 | levels distinct 40 | entropy 0.044 | 12814 sps
+gen  10900 | solve 0.996 | eval lvls 0.997 known 255/256 forgot 1202 | acc mean 0.995 best 0.996 perfect 0.00 | regret 0.021 (sel 0.022) win1 0.91 | levels distinct 37 | entropy 0.031 | 12117 sps
+gen  11000 | solve 0.996 | eval lvls 1.000 known 256/256 forgot 1202 | acc mean 0.994 best 0.995 perfect 0.00 | regret 0.010 (sel 0.009) win1 0.94 | levels distinct 44 | entropy 0.018 | 13374 sps
+gen  11100 | solve 0.998 | eval lvls 0.999 known 256/256 forgot 1202 | acc mean 0.997 best 0.997 perfect 0.00 | regret 0.030 (sel 0.037) win1 0.90 | levels distinct 32 | entropy 0.037 | 12588 sps
+gen  11200 | solve 0.998 | eval lvls 1.000 known 256/256 forgot 1202 | acc mean 0.997 best 0.997 perfect 0.00 | regret 0.017 (sel 0.019) win1 0.91 | levels distinct 41 | entropy 0.026 | 12811 sps
+gen  11300 | solve 0.999 | eval lvls 1.000 known 256/256 forgot 1202 | acc mean 0.998 best 0.998 perfect 0.00 | regret 0.024 (sel 0.030) win1 0.92 | levels distinct 49 | entropy 0.031 | 13315 sps
+gen  11400 | solve 0.999 | eval lvls 1.000 known 256/256 forgot 1202 | acc mean 0.998 best 0.998 perfect 0.00 | regret 0.001 (sel 0.001) win1 0.98 | levels distinct 35 | entropy 0.005 | 13200 sps
+gen  11500 | solve 0.999 | eval lvls 1.000 known 256/256 forgot 1202 | acc mean 0.998 best 0.998 perfect 0.00 | regret 0.003 (sel 0.003) win1 0.96 | levels distinct 42 | entropy 0.011 | 13379 sps
+gen  11600 | solve 0.999 | eval lvls 1.000 known 256/256 forgot 1202 | acc mean 0.998 best 0.999 perfect 0.00 | regret 0.007 (sel 0.008) win1 0.96 | levels distinct 40 | entropy 0.015 | 13342 sps
+gen  11700 | solve 0.999 | eval lvls 1.000 known 256/256 forgot 1202 | acc mean 0.998 best 0.998 perfect 0.00 | regret 0.008 (sel 0.009) win1 0.94 | levels distinct 39 | entropy 0.020 | 13323 sps
+gen  11800 | solve 0.999 | eval lvls 0.999 known 256/256 forgot 1202 | acc mean 0.998 best 0.998 perfect 0.00 | regret 0.016 (sel 0.020) win1 0.90 | levels distinct 38 | entropy 0.038 | 13206 sps
+gen  11900 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 1202 | acc mean 0.998 best 0.998 perfect 0.00 | regret 0.005 (sel 0.006) win1 0.96 | levels distinct 39 | entropy 0.016 | 13267 sps
+gen  12000 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 1202 | acc mean 0.999 best 0.999 perfect 0.00 | regret 0.031 (sel 0.035) win1 0.75 | levels distinct 40 | entropy 0.107 | 13190 sps
+wandb: updating run metadata
+wandb: uploading wandb-summary.json
+wandb: 
+wandb: Run summary:
+wandb:               agent/actor_loss -0.00145
+wandb:              agent/critic_loss 0.01446
+wandb:                  agent/entropy 0.10741
+wandb: agent/grad_norm_per_individual 8.45652
+wandb:                     agent/loss -0.15426
+wandb:    eval/expected_accuracy_best 0.99859
+wandb:    eval/expected_accuracy_mean 0.99853
+wandb:   eval/expected_accuracy_worst 0.99849
+wandb:  eval/frac_individuals_perfect 0
+wandb:           eval/mean_solve_rate 0.99951
+wandb:                            +63 ...
+wandb: 
+wandb:  View run pdcoea-n2048-geomchi0.3-12k at: https://forge.coreweave.com/wandb/ectheory-birmingham/binary-defence/runs/qd003j43
+wandb:  View project at: https://forge.coreweave.com/wandb/ectheory-birmingham/binary-defence
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20261119_123033-qd003j43\logs

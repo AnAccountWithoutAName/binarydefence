@@ -24,3 +24,5 @@ output/
 
 # Local planning notes
 /HANDOFF.md
+
+wandb/

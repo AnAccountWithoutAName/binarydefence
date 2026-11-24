@@ -1,0 +1,149 @@
+wandb: [wandb.login()] Loaded credentials for https://api.forge.coreweave.com from C:\Users\siddh\_netrc.
+wandb: Currently logged in as: kosu (ectheory-birmingham) to https://api.forge.coreweave.com. Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in C:\Projects\BinaryDefence\wandb\run-20261119_143057-uxgpdeth
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run accel-n2048-regret-buf64-envs1-r16-12k
+wandb:  View project at https://forge.coreweave.com/wandb/ectheory-birmingham/binary-defence
+wandb:  View run at https://forge.coreweave.com/wandb/ectheory-birmingham/binary-defence/runs/uxgpdeth
+BinaryDefence n=2048, 1023 ones; ACCEL, buffer 64, 1 levels x 16 rollouts per update
+upd    100 | solve 0.501 | eval lvls 0.504 known 129/256 forgot 0 | acc 0.501 | buffer 45 distinct 45 success 0.525 | replay 0.31 | entropy 0.684 | 523 sps
+upd    200 | solve 0.513 | eval lvls 0.496 known 127/256 forgot 43 | acc 0.507 | buffer 64 distinct 64 success 0.720 | replay 0.45 | entropy 0.621 | 5442 sps
+upd    300 | solve 0.511 | eval lvls 0.527 known 135/256 forgot 93 | acc 0.515 | buffer 64 distinct 64 success 0.844 | replay 0.46 | entropy 0.461 | 5201 sps
+upd    400 | solve 0.524 | eval lvls 0.512 known 131/256 forgot 144 | acc 0.521 | buffer 64 distinct 64 success 0.838 | replay 0.41 | entropy 0.457 | 5376 sps
+upd    500 | solve 0.525 | eval lvls 0.547 known 140/256 forgot 192 | acc 0.527 | buffer 64 distinct 64 success 0.874 | replay 0.40 | entropy 0.486 | 5323 sps
+upd    600 | solve 0.536 | eval lvls 0.516 known 132/256 forgot 265 | acc 0.533 | buffer 64 distinct 64 success 0.888 | replay 0.44 | entropy 0.392 | 5320 sps
+upd    700 | solve 0.539 | eval lvls 0.578 known 148/256 forgot 346 | acc 0.538 | buffer 64 distinct 64 success 0.940 | replay 0.46 | entropy 0.338 | 4711 sps
+upd    800 | solve 0.548 | eval lvls 0.555 known 142/256 forgot 417 | acc 0.543 | buffer 64 distinct 64 success 0.934 | replay 0.45 | entropy 0.295 | 4676 sps
+upd    900 | solve 0.547 | eval lvls 0.582 known 149/256 forgot 465 | acc 0.548 | buffer 64 distinct 64 success 0.988 | replay 0.48 | entropy 0.266 | 4326 sps
+upd   1000 | solve 0.550 | eval lvls 0.562 known 144/256 forgot 560 | acc 0.550 | buffer 64 distinct 64 success 0.998 | replay 0.46 | entropy 0.244 | 5194 sps
+upd   1100 | solve 0.557 | eval lvls 0.555 known 142/256 forgot 600 | acc 0.555 | buffer 64 distinct 64 success 0.983 | replay 0.45 | entropy 0.206 | 5215 sps
+upd   1200 | solve 0.553 | eval lvls 0.562 known 144/256 forgot 638 | acc 0.554 | buffer 64 distinct 64 success 0.957 | replay 0.45 | entropy 0.153 | 5123 sps
+upd   1300 | solve 0.566 | eval lvls 0.621 known 159/256 forgot 695 | acc 0.563 | buffer 64 distinct 64 success 0.977 | replay 0.45 | entropy 0.321 | 5202 sps
+upd   1400 | solve 0.563 | eval lvls 0.543 known 139/256 forgot 758 | acc 0.566 | buffer 64 distinct 64 success 0.983 | replay 0.45 | entropy 0.248 | 5027 sps
+upd   1500 | solve 0.565 | eval lvls 0.602 known 154/256 forgot 826 | acc 0.569 | buffer 64 distinct 64 success 0.891 | replay 0.42 | entropy 0.222 | 4965 sps
+upd   1600 | solve 0.575 | eval lvls 0.566 known 145/256 forgot 899 | acc 0.572 | buffer 64 distinct 64 success 0.952 | replay 0.44 | entropy 0.214 | 5401 sps
+upd   1700 | solve 0.573 | eval lvls 0.586 known 150/256 forgot 913 | acc 0.573 | buffer 64 distinct 64 success 0.970 | replay 0.45 | entropy 0.238 | 5394 sps
+upd   1800 | solve 0.587 | eval lvls 0.617 known 158/256 forgot 1009 | acc 0.581 | buffer 64 distinct 64 success 0.961 | replay 0.41 | entropy 0.223 | 5112 sps
+upd   1900 | solve 0.585 | eval lvls 0.625 known 160/256 forgot 1037 | acc 0.585 | buffer 64 distinct 64 success 0.983 | replay 0.46 | entropy 0.213 | 5181 sps
+upd   2000 | solve 0.578 | eval lvls 0.582 known 149/256 forgot 1114 | acc 0.578 | buffer 64 distinct 64 success 0.954 | replay 0.47 | entropy 0.225 | 5267 sps
+upd   2100 | solve 0.588 | eval lvls 0.598 known 153/256 forgot 1217 | acc 0.588 | buffer 64 distinct 64 success 0.986 | replay 0.47 | entropy 0.154 | 5075 sps
+upd   2200 | solve 0.589 | eval lvls 0.629 known 161/256 forgot 1225 | acc 0.592 | buffer 64 distinct 64 success 0.978 | replay 0.46 | entropy 0.156 | 5159 sps
+upd   2300 | solve 0.597 | eval lvls 0.586 known 150/256 forgot 1316 | acc 0.597 | buffer 64 distinct 64 success 0.941 | replay 0.45 | entropy 0.214 | 5291 sps
+upd   2400 | solve 0.599 | eval lvls 0.633 known 162/256 forgot 1403 | acc 0.597 | buffer 64 distinct 64 success 0.966 | replay 0.45 | entropy 0.197 | 5183 sps
+upd   2500 | solve 0.611 | eval lvls 0.617 known 158/256 forgot 1483 | acc 0.604 | buffer 64 distinct 64 success 0.942 | replay 0.41 | entropy 0.250 | 5354 sps
+upd   2600 | solve 0.610 | eval lvls 0.629 known 161/256 forgot 1486 | acc 0.604 | buffer 64 distinct 64 success 0.838 | replay 0.46 | entropy 0.141 | 5263 sps
+upd   2700 | solve 0.617 | eval lvls 0.629 known 161/256 forgot 1501 | acc 0.605 | buffer 64 distinct 64 success 0.816 | replay 0.45 | entropy 0.128 | 5164 sps
+upd   2800 | solve 0.604 | eval lvls 0.645 known 165/256 forgot 1539 | acc 0.604 | buffer 64 distinct 64 success 0.797 | replay 0.46 | entropy 0.140 | 5277 sps
+upd   2900 | solve 0.609 | eval lvls 0.641 known 164/256 forgot 1560 | acc 0.608 | buffer 64 distinct 64 success 0.810 | replay 0.47 | entropy 0.112 | 5209 sps
+upd   3000 | solve 0.606 | eval lvls 0.625 known 160/256 forgot 1604 | acc 0.606 | buffer 64 distinct 64 success 0.764 | replay 0.46 | entropy 0.117 | 5240 sps
+upd   3100 | solve 0.606 | eval lvls 0.602 known 154/256 forgot 1705 | acc 0.607 | buffer 64 distinct 64 success 0.802 | replay 0.45 | entropy 0.149 | 5317 sps
+upd   3200 | solve 0.601 | eval lvls 0.605 known 155/256 forgot 1705 | acc 0.605 | buffer 64 distinct 64 success 0.781 | replay 0.46 | entropy 0.166 | 5177 sps
+upd   3300 | solve 0.625 | eval lvls 0.656 known 168/256 forgot 1758 | acc 0.620 | buffer 64 distinct 64 success 0.893 | replay 0.47 | entropy 0.135 | 5167 sps
+upd   3400 | solve 0.633 | eval lvls 0.656 known 168/256 forgot 1772 | acc 0.624 | buffer 64 distinct 64 success 0.943 | replay 0.45 | entropy 0.272 | 5320 sps
+upd   3500 | solve 0.636 | eval lvls 0.621 known 159/256 forgot 1828 | acc 0.629 | buffer 64 distinct 64 success 0.993 | replay 0.46 | entropy 0.207 | 5166 sps
+upd   3600 | solve 0.625 | eval lvls 0.625 known 160/256 forgot 1847 | acc 0.626 | buffer 64 distinct 64 success 0.982 | replay 0.46 | entropy 0.154 | 5240 sps
+upd   3700 | solve 0.636 | eval lvls 0.645 known 165/256 forgot 1850 | acc 0.631 | buffer 64 distinct 64 success 0.925 | replay 0.43 | entropy 0.092 | 4960 sps
+upd   3800 | solve 0.639 | eval lvls 0.672 known 172/256 forgot 1906 | acc 0.634 | buffer 64 distinct 64 success 0.915 | replay 0.45 | entropy 0.219 | 4825 sps
+upd   3900 | solve 0.631 | eval lvls 0.648 known 166/256 forgot 1931 | acc 0.632 | buffer 64 distinct 64 success 0.875 | replay 0.46 | entropy 0.100 | 5295 sps
+upd   4000 | solve 0.641 | eval lvls 0.680 known 174/256 forgot 1959 | acc 0.638 | buffer 64 distinct 64 success 0.800 | replay 0.44 | entropy 0.117 | 5220 sps
+upd   4100 | solve 0.630 | eval lvls 0.637 known 163/256 forgot 2018 | acc 0.632 | buffer 64 distinct 64 success 0.690 | replay 0.44 | entropy 0.130 | 5184 sps
+upd   4200 | solve 0.632 | eval lvls 0.645 known 165/256 forgot 2107 | acc 0.633 | buffer 64 distinct 64 success 0.714 | replay 0.44 | entropy 0.133 | 5063 sps
+upd   4300 | solve 0.635 | eval lvls 0.652 known 167/256 forgot 2107 | acc 0.635 | buffer 64 distinct 64 success 0.724 | replay 0.46 | entropy 0.095 | 4576 sps
+upd   4400 | solve 0.633 | eval lvls 0.633 known 162/256 forgot 2112 | acc 0.632 | buffer 64 distinct 64 success 0.766 | replay 0.45 | entropy 0.105 | 5336 sps
+upd   4500 | solve 0.644 | eval lvls 0.645 known 165/256 forgot 2117 | acc 0.644 | buffer 64 distinct 64 success 0.788 | replay 0.45 | entropy 0.089 | 5396 sps
+upd   4600 | solve 0.638 | eval lvls 0.652 known 167/256 forgot 2120 | acc 0.639 | buffer 64 distinct 64 success 0.674 | replay 0.42 | entropy 0.143 | 5227 sps
+upd   4700 | solve 0.652 | eval lvls 0.652 known 167/256 forgot 2202 | acc 0.648 | buffer 64 distinct 64 success 0.720 | replay 0.41 | entropy 0.137 | 5487 sps
+upd   4800 | solve 0.667 | eval lvls 0.676 known 173/256 forgot 2231 | acc 0.652 | buffer 64 distinct 64 success 0.665 | replay 0.46 | entropy 0.117 | 5341 sps
+upd   4900 | solve 0.658 | eval lvls 0.645 known 165/256 forgot 2248 | acc 0.654 | buffer 64 distinct 64 success 0.676 | replay 0.42 | entropy 0.187 | 5405 sps
+upd   5000 | solve 0.666 | eval lvls 0.668 known 171/256 forgot 2251 | acc 0.653 | buffer 64 distinct 64 success 0.672 | replay 0.47 | entropy 0.127 | 5073 sps
+upd   5100 | solve 0.649 | eval lvls 0.652 known 167/256 forgot 2283 | acc 0.650 | buffer 64 distinct 64 success 0.722 | replay 0.44 | entropy 0.059 | 5467 sps
+upd   5200 | solve 0.679 | eval lvls 0.680 known 174/256 forgot 2317 | acc 0.660 | buffer 64 distinct 64 success 0.714 | replay 0.44 | entropy 0.091 | 5374 sps
+upd   5300 | solve 0.657 | eval lvls 0.648 known 166/256 forgot 2366 | acc 0.653 | buffer 64 distinct 64 success 0.695 | replay 0.44 | entropy 0.132 | 5340 sps
+upd   5400 | solve 0.683 | eval lvls 0.664 known 170/256 forgot 2412 | acc 0.661 | buffer 64 distinct 64 success 0.673 | replay 0.46 | entropy 0.154 | 5412 sps
+upd   5500 | solve 0.677 | eval lvls 0.711 known 182/256 forgot 2422 | acc 0.662 | buffer 64 distinct 64 success 0.704 | replay 0.47 | entropy 0.140 | 5340 sps
+upd   5600 | solve 0.649 | eval lvls 0.648 known 166/256 forgot 2466 | acc 0.649 | buffer 64 distinct 64 success 0.722 | replay 0.46 | entropy 0.150 | 5223 sps
+upd   5700 | solve 0.680 | eval lvls 0.715 known 183/256 forgot 2496 | acc 0.666 | buffer 64 distinct 64 success 0.692 | replay 0.44 | entropy 0.119 | 5377 sps
+upd   5800 | solve 0.645 | eval lvls 0.656 known 168/256 forgot 2554 | acc 0.645 | buffer 64 distinct 64 success 0.725 | replay 0.44 | entropy 0.266 | 5420 sps
+upd   5900 | solve 0.688 | eval lvls 0.680 known 174/256 forgot 2571 | acc 0.679 | buffer 64 distinct 64 success 0.897 | replay 0.44 | entropy 0.238 | 5532 sps
+upd   6000 | solve 0.653 | eval lvls 0.652 known 167/256 forgot 2642 | acc 0.656 | buffer 64 distinct 64 success 0.857 | replay 0.47 | entropy 0.095 | 5201 sps
+upd   6100 | solve 0.685 | eval lvls 0.676 known 173/256 forgot 2705 | acc 0.681 | buffer 64 distinct 64 success 0.855 | replay 0.43 | entropy 0.130 | 5267 sps
+upd   6200 | solve 0.687 | eval lvls 0.680 known 174/256 forgot 2705 | acc 0.683 | buffer 64 distinct 64 success 0.834 | replay 0.47 | entropy 0.099 | 5434 sps
+upd   6300 | solve 0.686 | eval lvls 0.715 known 183/256 forgot 2746 | acc 0.680 | buffer 64 distinct 64 success 0.782 | replay 0.47 | entropy 0.123 | 5378 sps
+upd   6400 | solve 0.662 | eval lvls 0.652 known 167/256 forgot 2773 | acc 0.663 | buffer 64 distinct 64 success 0.822 | replay 0.45 | entropy 0.128 | 5310 sps
+upd   6500 | solve 0.657 | eval lvls 0.652 known 167/256 forgot 2774 | acc 0.659 | buffer 64 distinct 64 success 0.710 | replay 0.46 | entropy 0.127 | 5540 sps
+upd   6600 | solve 0.667 | eval lvls 0.664 known 170/256 forgot 2774 | acc 0.668 | buffer 64 distinct 64 success 0.717 | replay 0.45 | entropy 0.067 | 5314 sps
+upd   6700 | solve 0.709 | eval lvls 0.727 known 186/256 forgot 2808 | acc 0.685 | buffer 64 distinct 64 success 0.728 | replay 0.46 | entropy 0.120 | 5392 sps
+upd   6800 | solve 0.676 | eval lvls 0.664 known 170/256 forgot 2858 | acc 0.677 | buffer 64 distinct 64 success 0.792 | replay 0.44 | entropy 0.184 | 5463 sps
+upd   6900 | solve 0.688 | eval lvls 0.680 known 174/256 forgot 2926 | acc 0.688 | buffer 64 distinct 64 success 0.803 | replay 0.47 | entropy 0.131 | 5427 sps
+upd   7000 | solve 0.670 | eval lvls 0.680 known 174/256 forgot 2939 | acc 0.673 | buffer 64 distinct 64 success 0.872 | replay 0.44 | entropy 0.227 | 5490 sps
+upd   7100 | solve 0.708 | eval lvls 0.727 known 186/256 forgot 2985 | acc 0.697 | buffer 64 distinct 64 success 0.886 | replay 0.45 | entropy 0.091 | 5371 sps
+upd   7200 | solve 0.694 | eval lvls 0.676 known 173/256 forgot 3018 | acc 0.695 | buffer 64 distinct 64 success 0.928 | replay 0.45 | entropy 0.256 | 5451 sps
+upd   7300 | solve 0.689 | eval lvls 0.664 known 170/256 forgot 3022 | acc 0.692 | buffer 64 distinct 64 success 0.946 | replay 0.48 | entropy 0.133 | 5384 sps
+upd   7400 | solve 0.712 | eval lvls 0.715 known 183/256 forgot 3036 | acc 0.710 | buffer 64 distinct 64 success 0.974 | replay 0.42 | entropy 0.196 | 5650 sps
+upd   7500 | solve 0.701 | eval lvls 0.684 known 175/256 forgot 3059 | acc 0.701 | buffer 64 distinct 64 success 0.945 | replay 0.45 | entropy 0.214 | 5445 sps
+upd   7600 | solve 0.720 | eval lvls 0.715 known 183/256 forgot 3117 | acc 0.715 | buffer 64 distinct 64 success 0.933 | replay 0.43 | entropy 0.187 | 5507 sps
+upd   7700 | solve 0.723 | eval lvls 0.723 known 185/256 forgot 3159 | acc 0.720 | buffer 64 distinct 64 success 0.950 | replay 0.43 | entropy 0.198 | 5518 sps
+upd   7800 | solve 0.738 | eval lvls 0.723 known 185/256 forgot 3183 | acc 0.724 | buffer 64 distinct 64 success 0.948 | replay 0.45 | entropy 0.158 | 5494 sps
+upd   7900 | solve 0.718 | eval lvls 0.707 known 181/256 forgot 3210 | acc 0.717 | buffer 64 distinct 64 success 0.864 | replay 0.44 | entropy 0.112 | 5372 sps
+upd   8000 | solve 0.730 | eval lvls 0.727 known 186/256 forgot 3222 | acc 0.724 | buffer 64 distinct 64 success 0.882 | replay 0.46 | entropy 0.085 | 5200 sps
+upd   8100 | solve 0.735 | eval lvls 0.742 known 190/256 forgot 3246 | acc 0.725 | buffer 64 distinct 64 success 0.829 | replay 0.42 | entropy 0.141 | 5460 sps
+upd   8200 | solve 0.746 | eval lvls 0.734 known 188/256 forgot 3255 | acc 0.728 | buffer 64 distinct 64 success 0.808 | replay 0.44 | entropy 0.077 | 5382 sps
+upd   8300 | solve 0.753 | eval lvls 0.734 known 188/256 forgot 3258 | acc 0.731 | buffer 64 distinct 64 success 0.896 | replay 0.43 | entropy 0.308 | 5392 sps
+upd   8400 | solve 0.711 | eval lvls 0.676 known 173/256 forgot 3300 | acc 0.711 | buffer 64 distinct 64 success 0.867 | replay 0.44 | entropy 0.230 | 5411 sps
+upd   8500 | solve 0.723 | eval lvls 0.695 known 178/256 forgot 3300 | acc 0.723 | buffer 64 distinct 64 success 0.887 | replay 0.43 | entropy 0.137 | 5509 sps
+upd   8600 | solve 0.752 | eval lvls 0.746 known 191/256 forgot 3324 | acc 0.738 | buffer 64 distinct 64 success 0.884 | replay 0.44 | entropy 0.067 | 5499 sps
+upd   8700 | solve 0.707 | eval lvls 0.711 known 182/256 forgot 3373 | acc 0.710 | buffer 64 distinct 64 success 0.778 | replay 0.43 | entropy 0.167 | 5317 sps
+upd   8800 | solve 0.740 | eval lvls 0.723 known 185/256 forgot 3384 | acc 0.737 | buffer 64 distinct 64 success 0.898 | replay 0.45 | entropy 0.206 | 5399 sps
+upd   8900 | solve 0.713 | eval lvls 0.691 known 177/256 forgot 3450 | acc 0.712 | buffer 64 distinct 64 success 0.901 | replay 0.46 | entropy 0.170 | 5342 sps
+upd   9000 | solve 0.767 | eval lvls 0.766 known 196/256 forgot 3473 | acc 0.748 | buffer 64 distinct 64 success 0.907 | replay 0.42 | entropy 0.091 | 4866 sps
+upd   9100 | solve 0.750 | eval lvls 0.750 known 192/256 forgot 3498 | acc 0.746 | buffer 64 distinct 64 success 0.874 | replay 0.42 | entropy 0.092 | 5370 sps
+upd   9200 | solve 0.749 | eval lvls 0.754 known 193/256 forgot 3544 | acc 0.746 | buffer 64 distinct 64 success 0.854 | replay 0.45 | entropy 0.103 | 5218 sps
+upd   9300 | solve 0.749 | eval lvls 0.758 known 194/256 forgot 3545 | acc 0.747 | buffer 64 distinct 64 success 0.816 | replay 0.47 | entropy 0.103 | 5384 sps
+upd   9400 | solve 0.741 | eval lvls 0.730 known 187/256 forgot 3554 | acc 0.742 | buffer 64 distinct 64 success 0.761 | replay 0.46 | entropy 0.100 | 5506 sps
+upd   9500 | solve 0.766 | eval lvls 0.746 known 191/256 forgot 3584 | acc 0.751 | buffer 64 distinct 64 success 0.736 | replay 0.43 | entropy 0.058 | 5599 sps
+upd   9600 | solve 0.753 | eval lvls 0.734 known 188/256 forgot 3595 | acc 0.750 | buffer 64 distinct 64 success 0.694 | replay 0.45 | entropy 0.106 | 5196 sps
+upd   9700 | solve 0.729 | eval lvls 0.703 known 180/256 forgot 3644 | acc 0.732 | buffer 64 distinct 64 success 0.664 | replay 0.44 | entropy 0.097 | 5246 sps
+upd   9800 | solve 0.731 | eval lvls 0.738 known 189/256 forgot 3707 | acc 0.731 | buffer 64 distinct 64 success 0.701 | replay 0.43 | entropy 0.112 | 5433 sps
+upd   9900 | solve 0.766 | eval lvls 0.754 known 193/256 forgot 3750 | acc 0.756 | buffer 64 distinct 64 success 0.771 | replay 0.44 | entropy 0.153 | 5037 sps
+upd  10000 | solve 0.741 | eval lvls 0.715 known 183/256 forgot 3776 | acc 0.743 | buffer 64 distinct 64 success 0.704 | replay 0.41 | entropy 0.128 | 5500 sps
+upd  10100 | solve 0.768 | eval lvls 0.750 known 192/256 forgot 3791 | acc 0.759 | buffer 64 distinct 64 success 0.712 | replay 0.46 | entropy 0.103 | 5446 sps
+upd  10200 | solve 0.747 | eval lvls 0.727 known 186/256 forgot 3812 | acc 0.746 | buffer 64 distinct 64 success 0.704 | replay 0.45 | entropy 0.107 | 5445 sps
+upd  10300 | solve 0.747 | eval lvls 0.727 known 186/256 forgot 3812 | acc 0.746 | buffer 64 distinct 64 success 0.635 | replay 0.41 | entropy 0.115 | 5417 sps
+upd  10400 | solve 0.724 | eval lvls 0.703 known 180/256 forgot 3819 | acc 0.722 | buffer 64 distinct 64 success 0.622 | replay 0.45 | entropy 0.066 | 5381 sps
+upd  10500 | solve 0.784 | eval lvls 0.777 known 199/256 forgot 3839 | acc 0.765 | buffer 64 distinct 64 success 0.729 | replay 0.46 | entropy 0.070 | 5448 sps
+upd  10600 | solve 0.756 | eval lvls 0.734 known 188/256 forgot 3871 | acc 0.755 | buffer 64 distinct 64 success 0.744 | replay 0.44 | entropy 0.208 | 4887 sps
+upd  10700 | solve 0.763 | eval lvls 0.742 known 190/256 forgot 3871 | acc 0.762 | buffer 64 distinct 64 success 0.851 | replay 0.47 | entropy 0.211 | 5276 sps
+upd  10800 | solve 0.783 | eval lvls 0.773 known 198/256 forgot 3876 | acc 0.771 | buffer 64 distinct 64 success 0.892 | replay 0.43 | entropy 0.257 | 4941 sps
+upd  10900 | solve 0.787 | eval lvls 0.766 known 196/256 forgot 3887 | acc 0.773 | buffer 64 distinct 64 success 0.876 | replay 0.46 | entropy 0.063 | 4361 sps
+upd  11000 | solve 0.758 | eval lvls 0.727 known 186/256 forgot 3914 | acc 0.755 | buffer 64 distinct 64 success 0.907 | replay 0.47 | entropy 0.209 | 4812 sps
+upd  11100 | solve 0.779 | eval lvls 0.758 known 194/256 forgot 3916 | acc 0.773 | buffer 64 distinct 64 success 0.909 | replay 0.44 | entropy 0.234 | 5579 sps
+upd  11200 | solve 0.779 | eval lvls 0.766 known 196/256 forgot 3961 | acc 0.773 | buffer 64 distinct 64 success 0.847 | replay 0.46 | entropy 0.107 | 4970 sps
+upd  11300 | solve 0.787 | eval lvls 0.770 known 197/256 forgot 4005 | acc 0.779 | buffer 64 distinct 64 success 0.900 | replay 0.45 | entropy 0.204 | 5576 sps
+upd  11400 | solve 0.794 | eval lvls 0.770 known 197/256 forgot 4038 | acc 0.783 | buffer 64 distinct 64 success 0.891 | replay 0.44 | entropy 0.100 | 5333 sps
+upd  11500 | solve 0.802 | eval lvls 0.770 known 197/256 forgot 4054 | acc 0.786 | buffer 64 distinct 64 success 0.951 | replay 0.47 | entropy 0.135 | 5307 sps
+upd  11600 | solve 0.793 | eval lvls 0.762 known 195/256 forgot 4062 | acc 0.786 | buffer 64 distinct 64 success 0.930 | replay 0.44 | entropy 0.167 | 4996 sps
+upd  11700 | solve 0.791 | eval lvls 0.777 known 199/256 forgot 4070 | acc 0.785 | buffer 64 distinct 64 success 0.972 | replay 0.47 | entropy 0.142 | 5488 sps
+upd  11800 | solve 0.764 | eval lvls 0.758 known 194/256 forgot 4128 | acc 0.764 | buffer 64 distinct 64 success 0.942 | replay 0.47 | entropy 0.094 | 5188 sps
+upd  11900 | solve 0.795 | eval lvls 0.777 known 199/256 forgot 4145 | acc 0.789 | buffer 64 distinct 64 success 0.966 | replay 0.44 | entropy 0.064 | 5242 sps
+upd  12000 | solve 0.802 | eval lvls 0.789 known 202/256 forgot 4167 | acc 0.795 | buffer 64 distinct 64 success 0.983 | replay 0.44 | entropy 0.195 | 5213 sps
+wandb: updating run metadata
+wandb: uploading config.yaml
+wandb: 
+wandb: Run summary:
+wandb:               accel/frac_dr 0.12
+wandb:           accel/frac_mutate 0.44
+wandb:           accel/frac_replay 0.44
+wandb:    accel/num_replay_updates 5354
+wandb:            agent/actor_loss -0.01831
+wandb:           agent/critic_loss 0.07646
+wandb:               agent/entropy 0.19525
+wandb:             agent/grad_norm 6.12375
+wandb:                  agent/loss 0.01797
+wandb: eval/expected_accuracy_mean 0.79457
+wandb:                         +60 ...
+wandb: 
+wandb:  View run accel-n2048-regret-buf64-envs1-r16-12k at: https://forge.coreweave.com/wandb/ectheory-birmingham/binary-defence/runs/uxgpdeth
+wandb:  View project at: https://forge.coreweave.com/wandb/ectheory-birmingham/binary-defence
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20261119_143057-uxgpdeth\logs

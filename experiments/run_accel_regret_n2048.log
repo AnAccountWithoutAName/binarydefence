@@ -1,0 +1,52 @@
+wandb: [wandb.login()] Loaded credentials for https://api.forge.coreweave.com from C:\Users\siddh\_netrc.
+wandb: Currently logged in as: kosu (ectheory-birmingham) to https://api.forge.coreweave.com. Use `wandb login --relogin` to force relogin
+wandb: setting up run hat21qbq
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in C:\Projects\BinaryDefence\wandb\run-20261119_140742-hat21qbq
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run accel-n2048-regret-buf64-12k
+wandb:  View project at https://forge.coreweave.com/wandb/ectheory-birmingham/binary-defence
+wandb:  View run at https://forge.coreweave.com/wandb/ectheory-birmingham/binary-defence/runs/hat21qbq
+BinaryDefence n=2048, 1023 ones; ACCEL, buffer 64, 256 levels x 16 rollouts per update
+upd    100 | solve 0.679 | eval lvls 0.695 known 178/256 forgot 0 | acc 0.555 | buffer 64 distinct 64 success 0.591 | replay 0.45 | entropy 0.687 | 16453 sps
+upd    200 | solve 0.876 | eval lvls 0.891 known 228/256 forgot 10 | acc 0.789 | buffer 64 distinct 64 success 0.762 | replay 0.45 | entropy 0.628 | 19072 sps
+upd    300 | solve 0.975 | eval lvls 0.953 known 244/256 forgot 12 | acc 0.953 | buffer 64 distinct 64 success 0.936 | replay 0.46 | entropy 0.478 | 19145 sps
+upd    400 | solve 0.998 | eval lvls 1.000 known 256/256 forgot 12 | acc 0.994 | buffer 64 distinct 64 success 0.974 | replay 0.41 | entropy 0.240 | 19520 sps
+upd    500 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 0.999 | buffer 64 distinct 64 success 1.000 | replay 0.40 | entropy 0.062 | 19593 sps
+upd    600 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.44 | entropy 0.006 | 20064 sps
+upd    700 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.46 | entropy 0.002 | 19904 sps
+upd    800 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.45 | entropy 0.000 | 19956 sps
+upd    900 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.48 | entropy 0.002 | 19723 sps
+upd   1000 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.46 | entropy 0.001 | 20110 sps
+upd   1100 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.45 | entropy 0.000 | 19346 sps
+upd   1200 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.45 | entropy 0.000 | 18120 sps
+upd   1300 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.45 | entropy 0.000 | 15791 sps
+upd   1400 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.45 | entropy 0.000 | 18581 sps
+upd   1500 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.42 | entropy 0.000 | 18818 sps
+upd   1600 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.44 | entropy 0.000 | 18645 sps
+upd   1700 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.45 | entropy 0.000 | 18771 sps
+upd   1800 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.41 | entropy 0.000 | 18804 sps
+upd   1900 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.46 | entropy 0.000 | 18685 sps
+upd   2000 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.47 | entropy 0.000 | 18829 sps
+upd   2100 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.47 | entropy 0.000 | 18696 sps
+upd   2200 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.46 | entropy 0.000 | 18592 sps
+upd   2300 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.45 | entropy 0.000 | 18746 sps
+upd   2400 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.45 | entropy 0.000 | 18757 sps
+upd   2500 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.41 | entropy 0.000 | 17876 sps
+upd   2600 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.46 | entropy 0.000 | 18668 sps
+upd   2700 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.45 | entropy 0.000 | 17603 sps
+upd   2800 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.46 | entropy 0.007 | 17828 sps
+upd   2900 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.47 | entropy 0.000 | 18273 sps
+upd   3000 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.46 | entropy 0.000 | 19309 sps
+upd   3100 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.45 | entropy 0.000 | 19692 sps
+upd   3200 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.46 | entropy 0.000 | 19916 sps
+upd   3300 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.47 | entropy 0.000 | 19807 sps
+upd   3400 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.45 | entropy 0.000 | 19844 sps
+upd   3500 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.46 | entropy 0.000 | 19030 sps
+upd   3600 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.46 | entropy 0.000 | 19600 sps
+upd   3700 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.43 | entropy 0.000 | 20125 sps
+upd   3800 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.45 | entropy 0.000 | 19645 sps
+upd   3900 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.46 | entropy 0.003 | 19959 sps
+upd   4000 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.44 | entropy 0.000 | 19315 sps
+upd   4100 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.44 | entropy 0.000 | 20064 sps
+upd   4200 | solve 1.000 | eval lvls 1.000 known 256/256 forgot 12 | acc 1.000 | buffer 64 distinct 64 success 1.000 | replay 0.44 | entropy 0.000 | 19148 sps

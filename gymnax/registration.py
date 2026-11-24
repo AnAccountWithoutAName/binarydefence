@@ -3,6 +3,10 @@
 from collections.abc import Callable
 from typing import Any
 
+from gymnax.environments.bdefence import (
+    defence
+)
+
 from gymnax.environments.bsuite import (
     bandit,
     catch,
@@ -69,6 +73,7 @@ _BUILTIN_ENV_IDS = [
     "Swimmer-misc",
     "Pong-misc",
     "FrozenLake-misc",
+    "BinaryDefence",
 ]
 
 _builtins: dict[str, EnvironmentFactory] = {
@@ -99,6 +104,7 @@ _builtins: dict[str, EnvironmentFactory] = {
     "Swimmer-misc": swimmer.Swimmer,
     "Pong-misc": pong.Pong,
     "FrozenLake-misc": frozen_lake.FrozenLake,
+    "BinaryDefence": defence.BinaryDefence,
 }
 """Factories for built-in and runtime-registered environments."""
 

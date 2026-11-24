@@ -1,6 +1,6 @@
 """Gymnax environments."""
 
-from gymnax.environments import bsuite, classic_control, environment, minatar, misc
+from gymnax.environments import bsuite, classic_control, environment, minatar, misc, bdefence
 
 Catch = bsuite.Catch
 DeepSea = bsuite.DeepSea
@@ -14,6 +14,7 @@ CartPole = classic_control.CartPole
 ContinuousMountainCar = classic_control.ContinuousMountainCar
 MountainCar = classic_control.MountainCar
 Pendulum = classic_control.Pendulum
+BinaryDefence = bdefence.BinaryDefence
 
 EnvState = environment.EnvState
 EnvParams = environment.EnvParams
@@ -32,6 +33,7 @@ Pong = misc.Pong
 Reacher = misc.Reacher
 Snake = misc.Snake
 Swimmer = misc.Swimmer
+
 
 
 __all__ = [
@@ -64,4 +66,5 @@ __all__ = [
     "Reacher",
     "Swimmer",
     "Pong",
+    "BinaryDefence"
 ]

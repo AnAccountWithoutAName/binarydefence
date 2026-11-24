@@ -1,0 +1,91 @@
+wandb: [wandb.login()] Loaded credentials for https://api.forge.coreweave.com from C:\Users\siddh\_netrc.
+wandb: Currently logged in as: kosu (ectheory-birmingham) to https://api.forge.coreweave.com. Use `wandb login --relogin` to force relogin
+wandb: setting up run 83fn56g2
+wandb: Tracking run with wandb version 0.31.0
+wandb: Run data is saved locally in C:\Projects\BinaryDefence\wandb\run-20261119_115843-83fn56g2
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run pdcoea-n1024-geomchi0.3-6k
+wandb:  View project at https://forge.coreweave.com/wandb/ectheory-birmingham/binary-defence
+wandb:  View run at https://forge.coreweave.com/wandb/ectheory-birmingham/binary-defence/runs/83fn56g2
+BinaryDefence n=1024, 504 ones; pop_size 64, 16 rollouts per pair
+gen    100 | solve 0.516 | eval lvls 0.538 known 19/32 forgot 0 | acc mean 0.510 best 0.512 greedy 0.516 perfect 0.00 | regret 0.494 (sel 0.496) win1 0.23 | levels distinct 38 | entropy 0.665 | 25108 sps
+gen    200 | solve 0.555 | eval lvls 0.541 known 19/32 forgot 2 | acc mean 0.546 best 0.553 greedy 0.555 perfect 0.00 | regret 0.469 (sel 0.475) win1 0.23 | levels distinct 39 | entropy 0.553 | 29247 sps
+gen    300 | solve 0.608 | eval lvls 0.613 known 20/32 forgot 8 | acc mean 0.598 best 0.603 greedy 0.608 perfect 0.00 | regret 0.441 (sel 0.456) win1 0.23 | levels distinct 37 | entropy 0.532 | 28639 sps
+gen    400 | solve 0.652 | eval lvls 0.698 known 23/32 forgot 8 | acc mean 0.643 best 0.648 greedy 0.652 perfect 0.00 | regret 0.426 (sel 0.452) win1 0.25 | levels distinct 39 | entropy 0.501 | 29349 sps
+gen    500 | solve 0.689 | eval lvls 0.712 known 22/32 forgot 11 | acc mean 0.682 best 0.685 greedy 0.689 perfect 0.00 | regret 0.387 (sel 0.406) win1 0.26 | levels distinct 43 | entropy 0.415 | 29181 sps
+gen    600 | solve 0.728 | eval lvls 0.762 known 25/32 forgot 13 | acc mean 0.718 best 0.727 greedy 0.728 perfect 0.00 | regret 0.385 (sel 0.404) win1 0.27 | levels distinct 49 | entropy 0.372 | 28881 sps
+gen    700 | solve 0.766 | eval lvls 0.814 known 26/32 forgot 15 | acc mean 0.756 best 0.765 greedy 0.766 perfect 0.00 | regret 0.338 (sel 0.361) win1 0.30 | levels distinct 40 | entropy 0.365 | 28015 sps
+gen    800 | solve 0.787 | eval lvls 0.772 known 23/32 forgot 21 | acc mean 0.776 best 0.789 greedy 0.787 perfect 0.00 | regret 0.333 (sel 0.359) win1 0.34 | levels distinct 41 | entropy 0.307 | 28759 sps
+gen    900 | solve 0.818 | eval lvls 0.795 known 26/32 forgot 21 | acc mean 0.807 best 0.815 greedy 0.818 perfect 0.00 | regret 0.277 (sel 0.289) win1 0.38 | levels distinct 46 | entropy 0.275 | 29505 sps
+gen   1000 | solve 0.847 | eval lvls 0.793 known 26/32 forgot 22 | acc mean 0.837 best 0.843 greedy 0.847 perfect 0.00 | regret 0.287 (sel 0.321) win1 0.38 | levels distinct 41 | entropy 0.273 | 29684 sps
+gen   1100 | solve 0.869 | eval lvls 0.831 known 28/32 forgot 22 | acc mean 0.860 best 0.870 greedy 0.869 perfect 0.00 | regret 0.246 (sel 0.264) win1 0.42 | levels distinct 38 | entropy 0.256 | 28947 sps
+gen   1200 | solve 0.894 | eval lvls 0.875 known 27/32 forgot 23 | acc mean 0.883 best 0.889 greedy 0.894 perfect 0.00 | regret 0.253 (sel 0.288) win1 0.48 | levels distinct 37 | entropy 0.207 | 27658 sps
+gen   1300 | solve 0.906 | eval lvls 0.880 known 27/32 forgot 24 | acc mean 0.897 best 0.907 greedy 0.906 perfect 0.00 | regret 0.211 (sel 0.228) win1 0.51 | levels distinct 39 | entropy 0.180 | 24858 sps
+gen   1400 | solve 0.901 | eval lvls 0.916 known 29/32 forgot 26 | acc mean 0.894 best 0.926 greedy 0.901 perfect 0.00 | regret 0.221 (sel 0.252) win1 0.56 | levels distinct 39 | entropy 0.154 | 24078 sps
+gen   1500 | solve 0.914 | eval lvls 0.964 known 31/32 forgot 26 | acc mean 0.911 best 0.930 greedy 0.914 perfect 0.00 | regret 0.209 (sel 0.235) win1 0.59 | levels distinct 36 | entropy 0.130 | 24153 sps
+gen   1600 | solve 0.938 | eval lvls 0.991 known 32/32 forgot 26 | acc mean 0.933 best 0.943 greedy 0.938 perfect 0.00 | regret 0.279 (sel 0.330) win1 0.60 | levels distinct 44 | entropy 0.111 | 24032 sps
+gen   1700 | solve 0.948 | eval lvls 0.990 known 32/32 forgot 26 | acc mean 0.942 best 0.949 greedy 0.948 perfect 0.00 | regret 0.215 (sel 0.264) win1 0.67 | levels distinct 40 | entropy 0.092 | 23802 sps
+gen   1800 | solve 0.955 | eval lvls 0.993 known 32/32 forgot 26 | acc mean 0.947 best 0.959 greedy 0.955 perfect 0.00 | regret 0.183 (sel 0.204) win1 0.62 | levels distinct 33 | entropy 0.113 | 22921 sps
+gen   1900 | solve 0.953 | eval lvls 0.977 known 32/32 forgot 26 | acc mean 0.947 best 0.960 greedy 0.953 perfect 0.00 | regret 0.126 (sel 0.140) win1 0.68 | levels distinct 36 | entropy 0.089 | 25774 sps
+gen   2000 | solve 0.940 | eval lvls 0.989 known 32/32 forgot 26 | acc mean 0.933 best 0.960 greedy 0.940 perfect 0.00 | regret 0.140 (sel 0.161) win1 0.70 | levels distinct 31 | entropy 0.083 | 25441 sps
+gen   2100 | solve 0.950 | eval lvls 1.000 known 32/32 forgot 26 | acc mean 0.944 best 0.958 greedy 0.950 perfect 0.00 | regret 0.242 (sel 0.305) win1 0.73 | levels distinct 26 | entropy 0.059 | 26080 sps
+gen   2200 | solve 0.960 | eval lvls 0.978 known 31/32 forgot 27 | acc mean 0.955 best 0.963 greedy 0.960 perfect 0.00 | regret 0.167 (sel 0.197) win1 0.68 | levels distinct 39 | entropy 0.092 | 26859 sps
+gen   2300 | solve 0.942 | eval lvls 0.957 known 31/32 forgot 28 | acc mean 0.938 best 0.963 greedy 0.942 perfect 0.00 | regret 0.190 (sel 0.230) win1 0.72 | levels distinct 28 | entropy 0.071 | 26842 sps
+gen   2400 | solve 0.970 | eval lvls 0.993 known 32/32 forgot 28 | acc mean 0.965 best 0.970 greedy 0.970 perfect 0.00 | regret 0.113 (sel 0.127) win1 0.71 | levels distinct 42 | entropy 0.084 | 28127 sps
+gen   2500 | solve 0.972 | eval lvls 0.994 known 32/32 forgot 28 | acc mean 0.967 best 0.975 greedy 0.972 perfect 0.00 | regret 0.154 (sel 0.188) win1 0.72 | levels distinct 38 | entropy 0.074 | 28836 sps
+gen   2600 | solve 0.970 | eval lvls 0.996 known 32/32 forgot 28 | acc mean 0.966 best 0.979 greedy 0.970 perfect 0.00 | regret 0.135 (sel 0.155) win1 0.75 | levels distinct 39 | entropy 0.059 | 29735 sps
+gen   2700 | solve 0.974 | eval lvls 0.998 known 32/32 forgot 28 | acc mean 0.971 best 0.979 greedy 0.974 perfect 0.00 | regret 0.091 (sel 0.092) win1 0.76 | levels distinct 31 | entropy 0.059 | 29615 sps
+gen   2800 | solve 0.964 | eval lvls 0.977 known 32/32 forgot 28 | acc mean 0.959 best 0.981 greedy 0.964 perfect 0.00 | regret 0.157 (sel 0.186) win1 0.74 | levels distinct 40 | entropy 0.059 | 29078 sps
+gen   2900 | solve 0.975 | eval lvls 0.992 known 32/32 forgot 28 | acc mean 0.972 best 0.980 greedy 0.975 perfect 0.00 | regret 0.087 (sel 0.102) win1 0.81 | levels distinct 38 | entropy 0.047 | 29474 sps
+gen   3000 | solve 0.981 | eval lvls 0.983 known 32/32 forgot 28 | acc mean 0.977 best 0.982 greedy 0.981 perfect 0.00 | regret 0.117 (sel 0.141) win1 0.79 | levels distinct 40 | entropy 0.049 | 29502 sps
+gen   3100 | solve 0.980 | eval lvls 0.969 known 31/32 forgot 29 | acc mean 0.978 best 0.980 greedy 0.980 perfect 0.00 | regret 0.121 (sel 0.143) win1 0.80 | levels distinct 47 | entropy 0.042 | 29093 sps
+gen   3200 | solve 0.976 | eval lvls 0.973 known 31/32 forgot 29 | acc mean 0.973 best 0.986 greedy 0.976 perfect 0.00 | regret 0.128 (sel 0.164) win1 0.80 | levels distinct 26 | entropy 0.039 | 28490 sps
+gen   3300 | solve 0.978 | eval lvls 0.967 known 31/32 forgot 29 | acc mean 0.976 best 0.986 greedy 0.978 perfect 0.00 | regret 0.097 (sel 0.100) win1 0.78 | levels distinct 33 | entropy 0.055 | 29534 sps
+gen   3400 | solve 0.982 | eval lvls 0.966 known 31/32 forgot 29 | acc mean 0.980 best 0.984 greedy 0.982 perfect 0.00 | regret 0.105 (sel 0.135) win1 0.84 | levels distinct 24 | entropy 0.036 | 27659 sps
+gen   3500 | solve 0.981 | eval lvls 0.967 known 31/32 forgot 29 | acc mean 0.979 best 0.982 greedy 0.981 perfect 0.00 | regret 0.173 (sel 0.216) win1 0.88 | levels distinct 40 | entropy 0.019 | 27818 sps
+gen   3600 | solve 0.984 | eval lvls 0.938 known 30/32 forgot 30 | acc mean 0.982 best 0.985 greedy 0.984 perfect 0.00 | regret 0.151 (sel 0.191) win1 0.77 | levels distinct 37 | entropy 0.062 | 27072 sps
+gen   3700 | solve 0.980 | eval lvls 0.969 known 31/32 forgot 30 | acc mean 0.976 best 0.984 greedy 0.980 perfect 0.00 | regret 0.543 (sel 0.686) win1 0.79 | levels distinct 29 | entropy 0.017 | 26636 sps
+gen   3800 | solve 0.988 | eval lvls 0.993 known 32/32 forgot 30 | acc mean 0.985 best 0.990 greedy 0.988 perfect 0.00 | regret 0.105 (sel 0.130) win1 0.79 | levels distinct 41 | entropy 0.050 | 26909 sps
+gen   3900 | solve 0.986 | eval lvls 0.969 known 31/32 forgot 31 | acc mean 0.983 best 0.991 greedy 0.986 perfect 0.00 | regret 0.072 (sel 0.077) win1 0.83 | levels distinct 40 | entropy 0.041 | 26783 sps
+gen   4000 | solve 0.988 | eval lvls 0.996 known 32/32 forgot 31 | acc mean 0.986 best 0.988 greedy 0.988 perfect 0.00 | regret 0.029 (sel 0.024) win1 0.89 | levels distinct 42 | entropy 0.027 | 25995 sps
+gen   4100 | solve 0.989 | eval lvls 0.991 known 32/32 forgot 31 | acc mean 0.986 best 0.990 greedy 0.989 perfect 0.00 | regret 0.030 (sel 0.027) win1 0.89 | levels distinct 41 | entropy 0.029 | 25903 sps
+gen   4200 | solve 0.983 | eval lvls 0.965 known 31/32 forgot 32 | acc mean 0.980 best 0.988 greedy 0.983 perfect 0.00 | regret 0.011 (sel 0.009) win1 0.94 | levels distinct 39 | entropy 0.017 | 25961 sps
+gen   4300 | solve 0.985 | eval lvls 0.983 known 32/32 forgot 32 | acc mean 0.982 best 0.993 greedy 0.985 perfect 0.00 | regret 0.059 (sel 0.062) win1 0.82 | levels distinct 36 | entropy 0.054 | 26207 sps
+gen   4400 | solve 0.995 | eval lvls 0.996 known 32/32 forgot 32 | acc mean 0.992 best 0.995 greedy 0.995 perfect 0.00 | regret 0.031 (sel 0.028) win1 0.86 | levels distinct 34 | entropy 0.040 | 27080 sps
+gen   4500 | solve 0.993 | eval lvls 1.000 known 32/32 forgot 32 | acc mean 0.991 best 0.994 greedy 0.993 perfect 0.00 | regret 0.013 (sel 0.011) win1 0.93 | levels distinct 41 | entropy 0.019 | 27326 sps
+gen   4600 | solve 0.993 | eval lvls 1.000 known 32/32 forgot 32 | acc mean 0.991 best 0.994 greedy 0.993 perfect 0.00 | regret 0.029 (sel 0.030) win1 0.89 | levels distinct 45 | entropy 0.036 | 28600 sps
+gen   4700 | solve 0.997 | eval lvls 1.000 known 32/32 forgot 32 | acc mean 0.995 best 0.995 greedy 0.997 perfect 0.00 | regret 0.024 (sel 0.025) win1 0.90 | levels distinct 42 | entropy 0.034 | 27957 sps
+gen   4800 | solve 0.994 | eval lvls 1.000 known 32/32 forgot 32 | acc mean 0.992 best 0.995 greedy 0.994 perfect 0.00 | regret 0.016 (sel 0.016) win1 0.91 | levels distinct 39 | entropy 0.024 | 27787 sps
+gen   4900 | solve 0.994 | eval lvls 1.000 known 32/32 forgot 32 | acc mean 0.991 best 0.995 greedy 0.994 perfect 0.00 | regret 0.008 (sel 0.006) win1 0.94 | levels distinct 43 | entropy 0.015 | 26547 sps
+gen   5000 | solve 0.996 | eval lvls 1.000 known 32/32 forgot 32 | acc mean 0.994 best 0.996 greedy 0.996 perfect 0.00 | regret 0.022 (sel 0.021) win1 0.90 | levels distinct 44 | entropy 0.028 | 25714 sps
+gen   5100 | solve 0.996 | eval lvls 1.000 known 32/32 forgot 32 | acc mean 0.994 best 0.998 greedy 0.996 perfect 0.05 | regret 0.026 (sel 0.029) win1 0.90 | levels distinct 33 | entropy 0.026 | 25588 sps
+gen   5200 | solve 0.999 | eval lvls 1.000 known 32/32 forgot 32 | acc mean 0.997 best 0.998 greedy 0.999 perfect 0.23 | regret 0.015 (sel 0.013) win1 0.92 | levels distinct 40 | entropy 0.024 | 26497 sps
+gen   5300 | solve 0.999 | eval lvls 1.000 known 32/32 forgot 32 | acc mean 0.997 best 0.999 greedy 0.999 perfect 0.58 | regret 0.013 (sel 0.013) win1 0.92 | levels distinct 44 | entropy 0.026 | 26630 sps
+gen   5400 | solve 1.000 | eval lvls 1.000 known 32/32 forgot 32 | acc mean 0.999 best 0.999 greedy 1.000 perfect 0.91 | regret 0.003 (sel 0.002) win1 0.96 | levels distinct 35 | entropy 0.010 | 26305 sps
+gen   5500 | solve 0.999 | eval lvls 1.000 known 32/32 forgot 32 | acc mean 0.998 best 0.999 greedy 0.999 perfect 0.66 | regret 0.002 (sel 0.001) win1 0.97 | levels distinct 38 | entropy 0.006 | 25943 sps
+gen   5600 | solve 1.000 | eval lvls 1.000 known 32/32 forgot 32 | acc mean 0.999 best 0.999 greedy 1.000 perfect 0.92 | regret 0.007 (sel 0.007) win1 0.93 | levels distinct 39 | entropy 0.022 | 26022 sps
+gen   5700 | solve 1.000 | eval lvls 1.000 known 32/32 forgot 32 | acc mean 0.998 best 0.999 greedy 1.000 perfect 1.00 | regret 0.001 (sel 0.001) win1 0.98 | levels distinct 42 | entropy 0.006 | 27146 sps
+gen   5800 | solve 1.000 | eval lvls 1.000 known 32/32 forgot 32 | acc mean 0.998 best 0.999 greedy 1.000 perfect 1.00 | regret 0.001 (sel 0.001) win1 0.98 | levels distinct 41 | entropy 0.006 | 27377 sps
+gen   5900 | solve 1.000 | eval lvls 1.000 known 32/32 forgot 32 | acc mean 0.999 best 0.999 greedy 1.000 perfect 1.00 | regret 0.002 (sel 0.002) win1 0.97 | levels distinct 38 | entropy 0.009 | 29339 sps
+gen   6000 | solve 1.000 | eval lvls 1.000 known 32/32 forgot 32 | acc mean 0.999 best 0.999 greedy 1.000 perfect 1.00 | regret 0.000 (sel 0.000) win1 0.99 | levels distinct 41 | entropy 0.003 | 29422 sps
+wandb: updating run metadata
+wandb: uploading wandb-summary.json; uploading config.yaml
+wandb: uploading history steps 58-59, summary
+wandb: 
+wandb: Run summary:
+wandb:               agent/actor_loss -2e-05
+wandb:              agent/critic_loss 0.0004
+wandb:                  agent/entropy 0.00281
+wandb: agent/grad_norm_per_individual 0.0564
+wandb:                     agent/loss -0.00286
+wandb:    eval/expected_accuracy_best 0.99906
+wandb:    eval/expected_accuracy_mean 0.99906
+wandb:   eval/expected_accuracy_worst 0.99896
+wandb:  eval/frac_individuals_perfect 1
+wandb:      eval/greedy_accuracy_best 1
+wandb:                            +65 ...
+wandb: 
+wandb:  View run pdcoea-n1024-geomchi0.3-6k at: https://forge.coreweave.com/wandb/ectheory-birmingham/binary-defence/runs/83fn56g2
+wandb:  View project at: https://forge.coreweave.com/wandb/ectheory-birmingham/binary-defence
+wandb: Synced 4 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: .\wandb\run-20261119_115843-83fn56g2\logs

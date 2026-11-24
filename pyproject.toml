@@ -19,6 +19,8 @@ dependencies = [
     "gymnasium>=1.1,<1.4",
     "matplotlib",
     "seaborn",
+    "distrax>=0.1.5",
+    "pytest>=9.1.1",
 ]
 classifiers = [
     "Programming Language :: Python :: 3.10",
@@ -73,3 +75,11 @@ ignore = ["N801", "N802", "N803", "N806", "N815", "W191"]
 
 [tool.ruff.lint.isort]
 combine-as-imports = true
+
+
+[tool.pyright]
+include = ["."]
+exclude = ["**/node_modules", "**/__pycache__"]
+venvPath = "."
+venv = ".venv"
+typeCheckingMode = "off"
